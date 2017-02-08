@@ -7,7 +7,6 @@ import { configureStore } from '../src/index.js'
 import { Provider } from 'react-redux'
 import App from '../src/App'
 import { ConnectedUsers, Users }  from '../src/components/Users'
-
 describe('store', () => {
   let store = configureStore()
 
